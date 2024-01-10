@@ -1,0 +1,15 @@
+name: MyGitHubActions-Basics
+
+on: [push, pull_request]
+
+jobs:
+  first1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: first step
+      run: echo "first step"
+      
+      
+    
+    
+
